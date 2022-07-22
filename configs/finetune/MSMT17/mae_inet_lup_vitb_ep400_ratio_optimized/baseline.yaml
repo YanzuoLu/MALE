@@ -1,0 +1,4 @@
+MODEL:
+  CHECKPOINT_PATH: 'checkpoints/mae_inet_lup_vitb_ep400_ratio_optimized.pth'
+
+OUTPUT_DIR: 'runs/finetune/MSMT17/mae_inet_lup_vitb_ep400_ratio_optimized/baseline'

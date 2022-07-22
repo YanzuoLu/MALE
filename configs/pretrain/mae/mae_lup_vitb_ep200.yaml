@@ -1,0 +1,5 @@
+ENGINE:
+  EPOCHS: 200
+  WARMUP_EPOCHS: 10
+
+OUTPUT_DIR: 'runs/pretrain/mae_lup_vitb_ep200'

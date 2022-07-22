@@ -1,0 +1,12 @@
+MODEL:
+  CHECKPOINT_PATH: 'checkpoints/mae_pretrain_vit_base_full.pth'
+  CHECKPOINT_POS_EMBED_SIZE: (14, 14)
+
+ENGINE:
+  EPOCHS: 400
+  WARMUP_EPOCHS: 20
+
+INPUT:
+  TRANSFORM: 'ratio_optimized'
+
+OUTPUT_DIR: 'runs/pretrain/mae_inet_lup_vitb_ep800_ratio_optimized'

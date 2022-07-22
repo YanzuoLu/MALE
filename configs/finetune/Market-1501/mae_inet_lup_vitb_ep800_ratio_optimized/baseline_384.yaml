@@ -1,0 +1,11 @@
+MODEL:
+  CHECKPOINT_PATH: 'checkpoints/mae_inet_lup_vitb_ep800_ratio_optimized.pth'
+
+INPUT:
+  IMAGE_SIZE: (384, 128)
+
+DATASET:
+  NAME: Market1501
+  ROOT_DIR: '/home/lyz/datasets/Market-1501-v15.09.15'
+
+OUTPUT_DIR: 'runs/finetune/Market-1501/mae_inet_lup_vitb_ep800_ratio_optimized/baseline_384'

@@ -1,0 +1,7 @@
+MODEL:
+  CHECKPOINT_PATH: 'checkpoints/mae_inet_lup_vitb_ep800_ratio_optimized.pth'
+
+INPUT:
+  IMAGE_SIZE: (384, 128)
+
+OUTPUT_DIR: 'runs/finetune/MSMT17/mae_inet_lup_vitb_ep800_ratio_optimized/baseline_384'

@@ -1,0 +1,8 @@
+ENGINE:
+  EPOCHS: 200
+  WARMUP_EPOCHS: 10
+
+INPUT:
+  TRANSFORM: 'ratio_optimized'
+
+OUTPUT_DIR: 'runs/pretrain/mae_lup_vitb_ep200_ratio_optimized'
