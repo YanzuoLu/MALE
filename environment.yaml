@@ -12,4 +12,4 @@ dependencies:
   - tensorboard==2.11.0
   - pip
   - pip:
-    - timm==0.6.12
+    - timm==0.5.4
